@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "title": "Lumea Clinique — Soins d'exception, lumière et sérénité",
+    "description": "Lumea Clinique, clinique privée de référence à Tunis : urgences 24h/24, maternité, chirurgie, imagerie et médecine esthétique. Équipe médicale expérimentée, prise en charge personnalisée et conciergerie.",
+    "keywords": "clinique privée Tunis, maternity Tunis, urgences 24h, chirurgie, imagerie médicale, médecine esthétique"
+  },
+  "common": {
+    "discover": "Découvrir",
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite",
+    "bookAppointment": "Prendre rendez-vous",
+    "appointment": "Rendez-vous",
+    "callUs": "Appelez-nous",
+    "contactUs": "Nous contacter",
+    "viewAll": "Voir tout",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "loading": "Chargement",
+    "all": "Tous",
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher un médecin, un service, une spécialité…",
+    "noResults": "Aucun résultat",
+    "from": "À partir de",
+    "min": "min",
+    "read": "min de lecture",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "menu": "Menu",
+    "language": "Langue",
+    "schedule": "Horaires",
+    "openingHours": "Horaires d'ouverture",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "name": "Nom et prénom",
+    "emergency": "Urgence",
+    "emergencyCall": "Urgences 24 h/24",
+    "required": "Champ obligatoire",
+    "optional": "facultatif",
+    "submit": "Envoyer",
+    "sending": "Envoi en cours…",
+    "success": "Votre demande a bien été transmise.",
+    "error": "Une erreur est survenue. Merci de réessayer.",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "nav": {
+    "home": "Accueil",
+    "departments": "Départements",
+    "practitioners": "Nos médecins",
+    "vip": "Conciergerie VIP",
+    "practical": "Informations pratiques",
+    "gallery": "Galerie",
+    "blog": "Journal",
+    "about": "La clinique",
+    "faq": "Questions fréquentes",
+    "contact": "Contact",
+    "appointment": "Rendez-vous",
+    "menu": "Menu principal",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "switchLanguage": "Changer de langue"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Clinique privée — Tunis",
+      "title": "Des soins d'exception, dans la lumière",
+      "subtitle": "Une équipe médicale expérimentée, des espaces pensés pour votre sérénité et un accompagnement qui ne s'arrête jamais à la porte de la clinique.",
+      "primaryCta": "Prendre rendez-vous",
+      "secondaryCta": "Découvrir la clinique",
+      "scrollHint": "Faites défiler pour découvrir"
+    },
+    "stats": {
+      "years": "Années d'expérience",
+      "practitioners": "Médecins et sage-femmes",
+      "patients": "Patients accompagnés",
+      "procedures": "Actes réalisés"
+    },
+    "intro": {
+      "eyebrow": "Notre philosophie",
+      "title": "La lumière comme principe de soin",
+      "text": "Chez Lumea, chaque détail est pensé pour apaiser. L'architecture, la lumière naturelle, le rythme des équipes et le temps accordé à chaque patient forment un même soin cohérent.",
+      "point1": "Temps d'échange garanti, sans rendez-vous écourté",
+      "point2": "Équipements modernes et protocoles evidence-based",
+      "point3": "Accueil bilingue français, arabe et anglais",
+      "cta": "Notre approche en détail"
+    },
+    "departments": {
+      "eyebrow": "Nos départements",
+      "title": "Quatre univers de soins réunis",
+      "text": "Urgences, maternité, chirurgie et imagerie : une organisation pensée pour vous, du premier appel jusqu'au suivi.",
+      "cta": "Voir tous les départements"
+    },
+    "practitioners": {
+      "eyebrow": "Notre équipe",
+      "title": "Des médecins qui prennent le temps",
+      "text": "Chaque praticien de Lumea est sélectionné pour son exigence technique, son écoute et sa capacité à expliquer.",
+      "cta": "Découvrir l'équipe"
+    },
+    "why": {
+      "eyebrow": "Pourquoi Lumea",
+      "title": "L'expérience d'un lieu qui veille",
+      "items": {
+        "1": "Accueil personnalisé et confidentiel, de la porte d'entrée jusqu'à la sortie",
+        "2": "Équipements de dernière génération diagnostiques et thérapeutiques",
+        "3": "Coordination complète de votre parcours de soins par la conciergerie",
+        "4": "Prise en charge d'urgence disponible en permanence, jour et nuit"
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Ils nous confient leur santé",
+      "title": "Des parcours racontés par nos patients",
+      "cta": "Lire tous les témoignages"
+    },
+    "gallery": {
+      "eyebrow": "La clinique en images",
+      "title": "Un lieu pensé pour votre serenity",
+      "cta": "Voir la galerie"
+    },
+    "blog": {
+      "eyebrow": "Le journal",
+      "title": "Nos conseils et notre actualité",
+      "cta": "Tous les articles"
+    },
+    "newsletter": {
+      "title": "Recevez nos conseils santé",
+      "text": "Une lettre mensuelle, sans jargon, pour prendre soin de vous et de votre famille.",
+      "placeholder": "Votre adresse e-mail",
+      "button": "S'inscrire",
+      "consent": "En vous inscrivant, vous acceptez de recevoir nos communications. Désinscription possible à tout moment."
+    },
+    "cta": {
+      "title": "Besoin d'un rendez-vous ou d'un avis ?",
+      "text": "Notre équipe vous répond du lundi au samedi. Pour une urgence, l'accueil est ouvert 24 h/24.",
+      "primary": "Prendre rendez-vous",
+      "secondary": "Appeler la clinique"
+    }
+  },
+  "departments": {
+    "eyebrow": "Départements",
+    "title": "Des soins coordonnés, du diagnostic au suivi",
+    "text": "Chaque département fonctionne avec ses propres moyens et son équipe dédiée, tout en partageant un même plateau technique et un même dossier patient.",
+    "emergencyCta": "Urgences 24 h/24",
+    "procedures": "Prises en charge",
+    "equipment": "Équipements et technologies",
+    "journey": "Votre parcours",
+    "faq": "Questions fréquentes",
+    "team": "L'équipe du département",
+    "philosophy": "Notre approche",
+    "relatedDepartments": "Autres départements",
+    "allDepartments": "Tous les départements"
+  },
+  "practitioners": {
+    "eyebrow": "Notre équipe",
+    "title": "Trouvez le praticien qui vous correspond",
+    "text": "Filtrez par spécialité, département ou langue parlée. Chaque profil présente le parcours, les compétences et les modalités de consultation.",
+    "filterSpecialty": "Spécialité",
+    "filterDepartment": "Département",
+    "filterLanguage": "Langue",
+    "filterAll": "Toutes les spécialités",
+    "results": "praticiens trouvés",
+    "bookWith": "Prendre rendez-vous avec",
+    "procedures": "Prises en charge",
+    "education": "Formation",
+    "experience": "Parcours",
+    "memberships": "Sociétés savantes",
+    "consultations": "Consultations",
+    "languages": "Langues parlées",
+    "availability": "Disponibilités",
+    "availabilityLabels": {
+      "disponible": "Disponible",
+      "limite": "Disponibilité limitée",
+      "complet": "Complet"
+    },
+    "notFound": "Ce praticien n'est pas disponible pour le moment.",
+    "backToTeam": "Retour à l'équipe",
+    "resetFilters": "Réinitialiser les filtres",
+    "filterAllDepartments": "Tous les départements",
+    "filterAllLanguages": "Toutes les langues"
+  },
+  "vip": {
+    "eyebrow": "Conciergerie VIP",
+    "title": "Votre séjour, sans aucune friction",
+    "text": "De l'organisation de votre voyage à la coordination de vos rendez-vous : notre conciergerie prend en charge les détails pour que vous ne pensiez qu'à votre santé.",
+    "services": "Nos services",
+    "travel": "Voyage et transferts",
+    "accommodation": "Hébergement",
+    "interpretation": "Interprétariat",
+    "coordination": "Coordination des soins",
+    "privacy": "Confidentialité",
+    "hotels": "Hôtels partenaires",
+    "hotelsText": "Une sélection d'établissements à quelques minutes de la clinique.",
+    "faq": "Questions fréquentes",
+    "cta": "Parler à la conciergerie",
+    "form": {
+      "title": "Demander un accompagnement",
+      "text": "Décrivez-nous votre séjour, nous revenons vers vous sous 24 heures.",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "country": "Pays de résidence",
+      "service": "Type de séjour",
+      "servicePlaceholder": "Choisir une prestation",
+      "servicesList": [
+        "Consultation",
+        "Consultation privée",
+        "Chirurgie",
+        "Imagerie",
+        "Conciergerie complète"
+      ]
+    },
+    "serviceDescriptions": {
+      "travel": "Organisation de votre vol ou de votre trajet, accueil à l'aéroport et transferts privés vers la clinique, à toute heure.",
+      "accommodation": "Réservation d'une chambre à proximité immédiate de la clinique, avec nettoyage quotidien et petit-déjeuner inclus.",
+      "interpretation": "Interprète médical francophone ou anglophone pour vos consultations et pour les entretiens avec votre famille.",
+      "coordination": "Planning unique regroupant consultations, examens et interventions, avec un interlocuteur unique tout au long de votre séjour.",
+      "privacy": "Confidentialité garantie sur votre dossier médical et sur votre séjour, y compris vis-à-vis de vos proches."
+    }
+  },
+  "practical": {
+    "eyebrow": "Informations pratiques",
+    "title": "Tout ce qu'il faut avant de venir",
+    "text": "Accès, horaires, parkings, paiements et prise en charge : les réponses concrètes à vos questions.",
+    "access": "Accès et transport",
+    "address": "Adresse",
+    "map": "Voir sur la carte",
+    "directions": "Itinéraire",
+    "transport": "Transports",
+    "parking": "Stationnement",
+    "parkingText": "Parking privé gratuit de 40 places, accessible 24 h/24, avec service de valet pendant les horaires d'ouverture.",
+    "openingHours": "Horaires",
+    "emergencyHours": "Urgences",
+    "emergencyHoursText": "Accueil des urgences ouvert 24 h/24, toute l'année, y compris les jours fériés.",
+    "payment": "Moyens de paiement",
+    "insurance": "Assurances et mutuelles",
+    "insuranceText": "Nous acceptons les principales caisses et mutuelles tunisiennes ainsi que les assurances privées internationales. Le tiers payant est disponible dans la plupart des situations.",
+    "documents": "Documents à apporter",
+    "faq": "Questions fréquentes",
+    "contact": "Une question ?",
+    "transportOptions": [
+      {
+        "label": "Voiture ou VTC",
+        "detail": "Environ 15 minutes depuis le centre-ville."
+      },
+      {
+        "label": "Bus",
+        "detail": "Lignes 5 et 21, arrêt Clinique."
+      },
+      {
+        "label": "Train",
+        "detail": "Gare de Tunis à 10 minutes en voiture."
+      }
+    ],
+    "documentsList": [
+      "Pièce d'identité ou passeport",
+      "Carte Vitale ou carte de mutuelle",
+      "Ordonnances et comptes rendus récents",
+      "Carte de mutuelle ou d'assurance"
+    ]
+  },
+  "appointment": {
+    "eyebrow": "Rendez-vous",
+    "title": "Réservez votre consultation",
+    "text": "Quelques informations suffisent. Notre équipe vous recontacte pour confirmer le créneau qui vous convient.",
+    "step1": "Vos informations",
+    "step2": "Votre demande",
+    "step3": "Confirmation",
+    "step1Title": "Qui êtes-vous ?",
+    "step2Title": "De quoi avez-vous besoin ?",
+    "step3Title": "Demande transmise",
+    "step3Text": "Merci. Notre équipe vous recontacte sous 24 heures ouvrées pour confirmer votre créneau.",
+    "department": "Département",
+    "practitioner": "Praticien (facultatif)",
+    "practitionerAny": "Le premier disponible",
+    "reason": "Motif de la consultation",
+    "reasonPlaceholder": "Décrivez brièvement votre besoin",
+    "preferredDate": "Date souhaitée",
+    "preferredTime": "Créneau préféré",
+    "morning": "Matin (8 h – 12 h)",
+    "afternoon": "Après-midi (14 h – 18 h)",
+    "insurance": "Assurance ou mutuelle",
+    "insuranceNone": "Je paie en libre",
+    "notes": "Informations complémentaires",
+    "notesPlaceholder": "Allergie, traitement en cours, contexte particulier…",
+    "consent": "J'accepte que Lumea Clinique utilise ces informations pour traiter ma demande de rendez-vous.",
+    "urgentNote": "En cas d'urgence vitale, appelez le 190 (SAMU) ou le 198 (pompiers) ou présentez-vous directement aux urgences.",
+    "success": "Demande envoyée",
+    "error": "Votre demande n'a pas pu être envoyée. Merci de réessayer ou de nous appeler.",
+    "another": "Faire une autre demande"
+  },
+  "about": {
+    "eyebrow": "La clinique",
+    "title": "Une clinique pensée comme un refuge",
+    "text": "Lumea Clinique est une clinique privée de référence à Tunis. Nous croyons que la qualité des soins commence par la qualité du lieu, le temps de l'écoute et la continuité du suivi.",
+    "story": "Notre histoire",
+    "storyText": "Lumea est née en 2016 d'un constat simple : dans une ville en croissance, la demande de soins de qualité, accessibles et profondément humains est réelle. Nous avons construit une clinique où chaque geste technique s'accompagne d'une attention à la personne qui le reçoit.",
+    "values": "Nos valeurs",
+    "timelineHeading": "Notre chronologie",
+    "valuesItems": {
+      "1": "Écoute : comprendre avant de soigner",
+      "2": "Transparence : des informations claires, une décision partagée",
+      "3": "Excellence : des protocoles exigeants, une évaluation continue",
+      "4": "Humanité : la dignité de chaque patient, sans exception"
+    },
+    "timeline": [
+      {
+        "year": "2016",
+        "title": "Ouverture de la clinique",
+        "text": "Lumea ouvre ses portes aux Berges du Lac avec un plateau technique de médecine générale et d'imagerie."
+      },
+      {
+        "year": "2019",
+        "title": "Premier bloc chirurgical",
+        "text": "La chirurgie ambulatoire s'installe dans un espace conçu pour un réveil calme et une sortie rapide."
+      },
+      {
+        "year": "2021",
+        "title": "Service de maternité",
+        "text": "La maternité ouvre, avec des suites pour les parents et une nurserie sécurisée."
+      },
+      {
+        "year": "2023",
+        "title": "Conciergerie VIP",
+        "text": "Notre service d'accompagnement des patients internationaux se structure autour de trois langues de travail."
+      },
+      {
+        "year": "2025",
+        "title": "Nouveau plateau d'imagerie",
+        "text": "IRM, scanner et échographie de dernière génération sont réunis dans un espace unique."
+      }
+    ],
+    "team": "Notre équipe",
+    "teamText": "Plus de 40 professionnels de santé, du médical au paramédical et à l'administratif, travaillent ensemble autour de vos soins.",
+    "figures": "Quelques chiffres",
+    "cta": "Rencontrer l'équipe"
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Lumea en images",
+    "text": "Architecture, lumière, matériel et espaces de soin : découvrez la clinique avant de venir.",
+    "all": "Tout",
+    "architecture": "Architecture",
+    "consultation": "Consultation",
+    "technology": "Technologie",
+    "rooms": "Chambres",
+    "maternity": "Maternité",
+    "care": "Soins",
+    "team": "Équipe"
+  },
+  "blog": {
+    "eyebrow": "Le journal",
+    "title": "Conseils, prévention et nouvelles de la clinique",
+    "text": "Des contenus écrits par nos praticiens, avec des explications claires et sans jargon.",
+    "readTime": "min de lecture",
+    "publishedOn": "Publié le",
+    "author": "Par",
+    "related": "À lire également",
+    "categories": "Catégories",
+    "backToBlog": "Retour au journal",
+    "share": "Partager",
+    "categoryLabels": {
+      "Guides pratiques": "Guides pratiques",
+      "Imagerie": "Imagerie",
+      "Maternité": "Maternité",
+      "Prévention": "Prévention",
+      "Chirurgie": "Chirurgie"
+    }
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Les réponses aux questions les plus fréquentes",
+    "text": "Vous ne trouvez pas votre réponse ? Notre équipe est disponible pour vous renseigner.",
+    "general": "Général",
+    "vip": "Conciergerie",
+    "appointment": "Rendez-vous",
+    "stillQuestions": "Une autre question ?",
+    "stillQuestionsText": "Écrivez-nous, nous vous répondrons dans les meilleurs délais.",
+    "contactCta": "Poser votre question"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Nous sommes joignables",
+    "text": "Une question, un rendez-vous, une demande de conciergerie : choisissez le canal qui vous convient.",
+    "form": {
+      "title": "Écrivez-nous",
+      "text": "Nous répondons sous 24 heures ouvrées.",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "subject": "Objet",
+      "subjectPlaceholder": "De quoi s'agit-il ?",
+      "message": "Message",
+      "messagePlaceholder": "Votre message…",
+      "send": "Envoyer le message"
+    },
+    "info": "Coordonnées",
+    "hours": "Horaires",
+    "followUs": "Suivez-nous",
+    "emergencyNote": "En cas d'urgence vitale, ne passez pas par ce formulaire : appelez le 190 ou le 198, ou présentez-vous aux urgences.",
+    "success": "Message envoyé",
+    "error": "Votre message n'a pas pu être envoyé."
+  },
+  "legal": {
+    "eyebrow": "Informations légales",
+    "title": "Mentions légales",
+    "notice": "Notice d'information",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique de cookies",
+    "tiers": "Conditions générales de vente",
+    "lastUpdate": "Dernière mise à jour",
+    "sections": {
+      "publisher": "Éditeur du site",
+      "hosting": "Hébergement",
+      "professional": "Informations professionnelles",
+      "personalData": "Données personnelles",
+      "rights": "Vos droits",
+      "cookiesUsage": "Utilisation des cookies"
+    },
+    "contents": {
+      "notice": {
+        "title": "Mentions légales",
+        "paragraphs": [
+          "Ce site est édité par Lumea Clinique SARL, société de droit tunisien au capital social de 50 000 TND, immatriculée au registre du commerce de Tunis sous le numéro 1234567B, dont le siège est situé 12, avenue de la Lumière, Les Berges du Lac, 1052 Tunis.",
+          "Lumea Clinique SARL est représentée par son gérant. La direction de la publication est assurée par la direction générale de la clinique.",
+          "Le site est hébergé au Tunisie. Les coordonnées complètes de l'hébergeur sont transmises sur simple demande écrite adressée à la clinique.",
+          "Pour toute question relative au site, vous pouvez écrire à bonjour@lumea-clinique.com ou appeler le +216 71 000 000."
+        ]
+      },
+      "privacy": {
+        "title": "Politique de confidentialité",
+        "paragraphs": [
+          "Les données collectées via les formulaires de ce site (nom, adresse électronique, numéro de téléphone, motif de consultation) sont utilisées uniquement pour traiter votre demande et organiser votre prise en charge.",
+          "Elles sont conservées de manière confidentielle par l'équipe de la clinique, selon les obligations de secret professionnel qui s'appliquent aux données de santé.",
+          "Elles ne sont ni revendues, ni transmises à des tiers à des fins commerciales. Seuls les praticiens et le personnel administratif concernés par votre dossier y ont accès.",
+          "Conformément à la réglementation tunisienne sur la protection des données personnelles, vous disposez d'un droit d'accès, de rectification et de suppression de vos données, exerçable auprès de la clinique."
+        ]
+      },
+      "cookies": {
+        "title": "Politique de cookies",
+        "paragraphs": [
+          "Ce site utilise des cookies strictement nécessaires à son fonctionnement, notamment pour mémoriser votre choix de langue et votre préférence en matière de cookies.",
+          "Des cookies de mesure d'audience anonymisée peuvent être déposés si vous acceptez les cookies optionnels lors de l'affichage du bandeau de consentement.",
+          "Aucun cookie publicitaire ni traçage tiers n'est déposé sans votre consentement préalable.",
+          "Vous pouvez à tout moment accepter, refuser ou personnaliser vos choix depuis le lien « Cookies » présent en pied de page."
+        ]
+      },
+      "tiers": {
+        "title": "Conditions générales de vente",
+        "paragraphs": [
+          "Les prestations médicales sont réalisées par Lumea Clinique SARL et facturées selon la nomenclature en vigueur. Un devis détaillé est remis avant toute intervention non urgente.",
+          "Les acomptes demandés pour les interventions programmées sont remboursables en cas d'annulation annoncée au moins 72 heures à l'avance.",
+          "Le règlement peut s'effectuer par espèces, carte bancaire, virement, chèque ou tiers payant selon votre couverture. Les modalités applicables vous sont communiquées avant la consultation.",
+          "Les prestations non remboursées par votre caisse ou votre mutuelle restent à votre charge, sauf mention contraire expressément indiquée sur le devis."
+        ]
+      }
+    },
+    "updated": "Mise à jour : janvier 2026"
+  },
+  "footer": {
+    "tagline": "Clinique privée de référence à Tunis, au service de votre santé et de votre sérénité.",
+    "departments": "Départements",
+    "practitioners": "Praticiens",
+    "clinic": "La clinique",
+    "help": "Aide",
+    "contact": "Contact",
+    "faq": "Questions fréquentes",
+    "practical": "Informations pratiques",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies",
+    "rights": "Droits des patients",
+    "newsletter": "Notre lettre santé",
+    "rightsReserved": "Tous droits réservés.",
+    "medicalDisclaimer": "Les informations de ce site sont fournies à titre informatif et ne remplacent pas une consultation médicale.",
+    "makeAppointment": "Prendre rendez-vous"
+  },
+  "cookieBanner": {
+    "title": "Nous respectons votre vie privée",
+    "text": "Nous utilisons des cookies nécessaires au fonctionnement du site et, avec votre accord, des cookies de mesure d'audience. Vous pouvez modifier votre choix à tout moment.",
+    "accept": "Tout accepter",
+    "reject": "Refuser",
+    "settings": "Personnaliser",
+    "close": "Fermer"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil",
+    "contact": "Nous contacter"
+  },
+  "error": {
+    "title": "Une erreur est survenue",
+    "text": "Un problème inattendu a interrompu le chargement de la page.",
+    "retry": "Réessayer",
+    "backHome": "Retour à l'accueil"
+  }
+}

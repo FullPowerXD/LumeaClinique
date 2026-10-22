@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="bloc.jpg">
+  <defs>
+    <linearGradient id="g37bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FBF5E3"/>
+    </linearGradient>
+    <radialGradient id="g37glow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g37bg)"/>
+  <rect width="1200" height="900" fill="url(#g37glow)"/>
+  <g fill="none" stroke="#C09A28" stroke-opacity="0.22" stroke-width="1.5">
+    <circle cx="600" cy="380" r="240"/>
+    <circle cx="600" cy="380" r="310"/>
+  </g>
+  <path d="M600 190 L636 344 L790 380 L636 416 L600 570 L564 416 L410 380 L564 344 Z" fill="#C09A28" fill-opacity="0.16"/>
+  <path d="M600 214 L628 332 L746 380 L628 428 L600 546 L572 428 L454 380 L572 332 Z" fill="none" stroke="#C09A28" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="600" y="700" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#C09A28" fill-opacity="0.75" letter-spacing="6">BLOC.JPG</text>
+  <text x="600" y="748" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#C09A28" fill-opacity="0.45" letter-spacing="10">LUMEA CLINIQUE</text>
+</svg>

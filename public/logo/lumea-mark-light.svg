@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" fill="none" role="img" aria-label="Lumea Clinique">
+  <title>Lumea Clinique</title>
+  <defs>
+    <linearGradient id="lumeaGoldLight" x1="24" y1="24" x2="212" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBF5E3"/>
+      <stop offset="45%" stop-color="#F5D77A"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <mask id="lumeaCrescentLight">
+      <rect width="240" height="240" fill="#000"/>
+      <circle cx="112" cy="120" r="92" fill="#fff"/>
+      <circle cx="152" cy="110" r="84" fill="#000"/>
+    </mask>
+  </defs>
+
+  <circle cx="112" cy="120" r="92" fill="url(#lumeaGoldLight)" mask="url(#lumeaCrescentLight)"/>
+  <path fill="url(#lumeaGoldLight)" d="M74 74 H112 V86 H104 V134 H122 V126 H140 V162 H84 V86 H74 Z"/>
+
+  <g stroke="url(#lumeaGoldLight)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158 62 C172 68 178 80 178 94 C178 102 175 106 178 112 C182 118 184 120 183 122 C181 124 179 124 179 126 C183 128 184 130 182 132 C184 134 181 136 181 138 C180 142 176 144 173 147 C169 151 166 154 165 158 L165 182"/>
+    <path d="M158 62 C142 54 126 62 122 78 C118 94 126 106 118 120 C111 132 116 146 108 158 C103 166 101 176 102 186"/>
+    <path d="M154 70 C143 66 134 74 132 86 C130 98 137 106 130 118 C125 128 128 138 122 148" opacity="0.85"/>
+  </g>
+
+  <path fill="url(#lumeaGoldLight)" d="M196 33 C196 42.9 199.1 42.9 209 46 C199.1 49.1 196 49.1 196 59 C196 49.1 192.9 49.1 183 46 C192.9 42.9 196 42.9 196 33 Z"/>
+</svg>
