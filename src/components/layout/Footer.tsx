@@ -95,7 +95,6 @@ export default async function Footer() {
               links={[
                 { href: '/a-propos', label: t('nav.about') },
                 { href: '/galerie', label: t('nav.gallery') },
-                { href: '/journal', label: t('nav.blog') },
                 { href: '/vip', label: t('nav.vip') },
                 { href: '/praticiens', label: t('nav.practitioners') }
               ]}
@@ -103,7 +102,6 @@ export default async function Footer() {
             <FooterColumn
               title={t('footer.help')}
               links={[
-                { href: '/questions-frequentes', label: t('footer.faq') },
                 { href: '/infos-pratiques', label: t('footer.practical') },
                 { href: '/rendez-vous', label: t('common.bookAppointment') },
                 { href: '/contact', label: t('footer.contact') },

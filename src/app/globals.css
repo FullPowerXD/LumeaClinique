@@ -170,3 +170,12 @@
     display: none !important;
   }
 }
+
+/* Hide Next.js devtools button / dev indicators */
+nextjs-portal,
+#nextjs-dev-toolbar,
+[data-nextjs-dev-tools-button],
+[data-nextjs-toast] {
+  display: none !important;
+}
+

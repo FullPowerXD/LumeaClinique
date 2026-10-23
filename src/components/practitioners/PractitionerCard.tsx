@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { Languages, Stethoscope } from 'lucide-react';
-import { useTranslations } from 'next-intl';
 
 import type { Practitioner } from '@/types';
 import { Link } from '@/i18n/navigation';
@@ -30,13 +29,6 @@ export default function PractitionerCard({
   className,
   compact = false
 }: PractitionerCardProps) {
-  const t = useTranslations();
-
-  const availabilityStyles = {
-    disponible: 'bg-emerald-500',
-    limite: 'bg-amber-500',
-    complet: 'bg-ink-mute'
-  } as const;
 
   return (
     <Link
@@ -59,16 +51,6 @@ export default function PractitionerCard({
           aria-hidden
           className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-80"
         />
-
-        <span className="absolute end-4 top-4 inline-flex items-center gap-2 rounded-full bg-white/90 px-3 py-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-ink backdrop-blur">
-          <span
-            className={cn(
-              'h-1.5 w-1.5 rounded-full',
-              availabilityStyles[practitioner.availability]
-            )}
-          />
-          {t(`practitioners.availabilityLabels.${practitioner.availability}`)}
-        </span>
       </div>
 
       <div className="flex flex-1 flex-col p-6">

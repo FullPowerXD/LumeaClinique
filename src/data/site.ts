@@ -95,8 +95,6 @@ export const site = {
     { id: 'practical', href: '/infos-pratiques', labelKey: 'nav.practical', mega: true },
     { id: 'about', href: '/a-propos', labelKey: 'nav.about' },
     { id: 'gallery', href: '/galerie', labelKey: 'nav.gallery' },
-    { id: 'blog', href: '/journal', labelKey: 'nav.blog' },
-    { id: 'faq', href: '/questions-frequentes', labelKey: 'nav.faq' },
     { id: 'contact', href: '/contact', labelKey: 'nav.contact' }
   ]
 } as const;

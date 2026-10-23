@@ -55,7 +55,7 @@ export default function Header() {
       <div className="container-luxe">
         <div className="flex h-20 items-center justify-between gap-6">
           <Link href="/" aria-label="Lumea Clinique" className="shrink-0">
-            <Logo variant={solid ? 'dark' : 'light'} priority />
+            <Logo variant="dark" priority />
           </Link>
 
           {/* Desktop navigation */}
@@ -75,11 +75,7 @@ export default function Header() {
                     href={item.href}
                     className={cn(
                       'relative flex items-center gap-1.5 rounded-full px-4 py-2.5 text-[0.78rem] font-medium tracking-wide transition-colors duration-300',
-                      solid
-                        ? active
-                          ? 'text-gold-600'
-                          : 'text-ink hover:text-gold-600'
-                        : 'text-white/90 hover:text-gold-100'
+                      active ? 'text-gold-600' : 'text-ink hover:text-gold-600'
                     )}
                   >
                     {t(item.labelKey)}
@@ -105,44 +101,13 @@ export default function Header() {
 
           {/* Actions */}
           <div className="flex items-center gap-2">
-            <LanguageSwitcher solid={solid} />
-
-            <a
-              href={`tel:${site.contact.emergencyHref}`}
-              className={cn(
-                'hidden items-center gap-2 rounded-full border px-4 py-2.5 text-[0.72rem] font-semibold tracking-wide transition-colors duration-300 lg:inline-flex',
-                solid
-                  ? 'border-ink-line text-ink hover:border-gold-400 hover:text-gold-600'
-                  : 'border-white/40 text-white hover:border-white/70'
-              )}
-            >
-              <Phone className="h-3.5 w-3.5" />
-              {site.contact.emergency}
-            </a>
-
-            <Link
-              href="/rendez-vous"
-              className={cn(
-                'hidden rounded-full px-6 py-3 text-[0.75rem] font-semibold tracking-wide transition-all duration-500 ease-luxe sm:inline-flex',
-                solid
-                  ? 'bg-gold-gradient text-white shadow-glow hover:shadow-lift'
-                  : 'bg-white text-ink hover:bg-champagne'
-              )}
-            >
-              {t('common.bookAppointment')}
-            </Link>
 
             <button
               type="button"
               onClick={() => setMobileOpen((v) => !v)}
               aria-label={mobileOpen ? t('nav.closeMenu') : t('nav.openMenu')}
               aria-expanded={mobileOpen}
-              className={cn(
-                'inline-flex h-11 w-11 items-center justify-center rounded-full border transition-colors duration-300 xl:hidden',
-                solid
-                  ? 'border-ink-line text-ink'
-                  : 'border-white/40 text-white'
-              )}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-ink-line text-ink transition-colors duration-300 xl:hidden"
             >
               {mobileOpen ? (
                 <X className="h-5 w-5" />
@@ -154,7 +119,11 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile drawer */}
+      {/* Language switcher – fixed top-right on desktop */}
+      <div className="fixed right-5 top-4 z-[60] hidden xl:block">
+        <LanguageSwitcher solid={solid} />
+      </div>
+
       <AnimatePresence>
         {mobileOpen ? (
           <motion.div
@@ -177,21 +146,7 @@ export default function Header() {
                 ))}
               </nav>
 
-              <div className="mt-6 flex flex-col gap-3">
-                <Link
-                  href="/rendez-vous"
-                  className="rounded-full bg-gold-gradient px-7 py-4 text-center text-sm font-semibold text-white"
-                >
-                  {t('common.bookAppointment')}
-                </Link>
-                <a
-                  href={`tel:${site.contact.emergencyHref}`}
-                  className="inline-flex items-center justify-center gap-2 rounded-full border border-ink-line px-7 py-4 text-sm font-medium text-ink"
-                >
-                  <Phone className="h-4 w-4" />
-                  {site.contact.emergency}
-                </a>
-              </div>
+
             </div>
           </motion.div>
         ) : null}
@@ -330,12 +285,7 @@ function LanguageSwitcher({ solid }: { solid: boolean }) {
         onClick={() => setOpen((v) => !v)}
         aria-label={t('nav.switchLanguage')}
         aria-expanded={open}
-        className={cn(
-          'inline-flex h-10 w-10 items-center justify-center rounded-full border text-[0.62rem] font-semibold tracking-widest transition-colors duration-300',
-          solid
-            ? 'border-ink-line text-ink hover:border-gold-400 hover:text-gold-600'
-            : 'border-white/40 text-white hover:border-white/70'
-        )}
+        className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-ink-line text-[0.62rem] font-semibold tracking-widest text-ink transition-colors duration-300 hover:border-gold-400 hover:text-gold-600"
       >
         {current.toUpperCase()}
       </button>

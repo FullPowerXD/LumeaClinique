@@ -21,7 +21,7 @@ export default function Logo({
     <span className={cn('inline-flex items-center gap-3', className)}>
       <span className="relative inline-flex h-11 w-11 shrink-0 items-center justify-center">
         <Image
-          src={isLight ? '/logo/lumea-mark-light.svg' : '/logo/lumea-mark.svg'}
+          src="/logo/lumea-clinique.png"
           alt="Lumea Clinique"
           width={44}
           height={44}
